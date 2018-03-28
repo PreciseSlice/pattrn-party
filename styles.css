@@ -67,11 +67,57 @@ header h3 {
 }
 
 .accordion-tabs {
-  background-color: #3F3244;
+  background-color: #F2F2F2;
   margin: 3% 3%;
-  height: 66%;
+  height: 63%;
+}
+
+.tab-list {
+  height: 12%;
+  display: flex;
 }
 
 .accordion button {
   align-self: center;
+}
+
+.active {
+	font-weight: 600;
+}
+
+
+.tab-content {
+  display: none;
+  height: 88%;
+  border: 1px solid #666666;
+}
+
+.show {
+  display: block;
+}
+
+.a-wrapper {
+  align-items: center;
+  background-color: #D1D2D3;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  width: 25%;
+  border-right: 1px solid #F2F2F2;
+}
+
+.selected-div {
+  background-color: #F2F2F2;
+  border: 1px solid #666666;
+  border-bottom: none;
+  margin-left: -1px;
+}
+
+.a-wrapper a {
+  text-decoration: none;
+  color: #666666;
+}
+
+#first-tab {
+  margin: 0;
 }
