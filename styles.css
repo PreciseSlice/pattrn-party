@@ -59,12 +59,15 @@ header h3 {
 }
 
 .accordion-tabs-title hr {
-  width: 90%;
+  border-style: solid;
+  border-width: 1px;
+  color: #D1D2D3;
   margin-left: 2%;
+  width: 88%;
 }
 
 .accordion-tabs {
-  background-color: darkolivegreen;
+  background-color: #3F3244;
   margin: 3% 3%;
   height: 66%;
 }
