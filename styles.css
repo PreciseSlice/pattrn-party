@@ -63,7 +63,7 @@ header h3 {
   border-width: 1px;
   color: #D1D2D3;
   margin-left: 2%;
-  width: 88%;
+  width: 86%;
 }
 
 .accordion-tabs {
@@ -95,7 +95,7 @@ header h3 {
   background-color: #666666;
   height: 87%;
   margin: 2%;
-  width: 188%;
+  width: 30%;
 }
 
 .show {
@@ -130,6 +130,7 @@ header h3 {
 
 .tab-text {
   margin: 4% 2% 2% 0;
+  width: 60%;
 }
 
 .tab-text h2 {
