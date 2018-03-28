@@ -63,7 +63,7 @@ header h3 {
   border-width: 1px;
   color: #D1D2D3;
   margin-left: 2%;
-  width: 88%;
+  width: 86%;
 }
 
 .accordion-tabs {
@@ -85,15 +85,21 @@ header h3 {
 	font-weight: 600;
 }
 
-
 .tab-content {
   display: none;
   height: 88%;
   border: 1px solid #666666;
 }
 
+.sqaure-placeholder {
+  background-color: #666666;
+  height: 87%;
+  margin: 2%;
+  width: 30%;
+}
+
 .show {
-  display: block;
+  display: flex;
 }
 
 .a-wrapper {
@@ -120,4 +126,24 @@ header h3 {
 
 #first-tab {
   margin: 0;
+}
+
+.tab-text {
+  margin: 4% 2% 2% 0;
+  width: 60%;
+}
+
+.tab-text h2 {
+  font-size: 1.8em;
+  font-weight: 600;
+  margin-bottom: 2.5%;
+}
+
+.tab-text hr {
+  margin-bottom: 5%;
+}
+
+.tab-text p {
+  line-height: 1.5em;
+  margin: 4% 2.5% 0 0;
 }
