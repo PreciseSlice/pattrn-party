@@ -1,69 +1,7 @@
-html, body {
-  height: 100%;
-  min-height: 100%;
-}
-
-body {
-  background-color: #F2F2F2;
-  font-family: 'Open Sans', sans-serif;
-  letter-spacing: 0.04em;
-}
-
-button {
-  background-color: #3F3244;
-  color: #F2F2F2;
-  font-weight: 300;
-  font-size: 1.2em;
-  height: 6%;
-  letter-spacing: 0.04em;
-  width: 33%;
-}
-
-header {
-  align-items: center;
-  background-color: #2F2235;
-  color: #F2F2F2;
-  display: flex;
-  height: 6%;
-  justify-content: space-between;
-}
-
-header h1 {
-  margin-left: 3%;
-  font-size: 1.4em;
-  font-weight: 300;
-  letter-spacing: 0.1em;
-}
-
-header h3 {
-  margin-right: 3%;
-}
-
-.header-span {
-  color: #34D1D1;
-}
-
-.main {
-  height: 100%;
-  margin: 3% 3%;
-}
-
 .accordion {
   display: flex;
   flex-direction: column;
   height: 100%;
-}
-
-.accordion-tabs-title {
-  display: flex;
-}
-
-.accordion-tabs-title hr {
-  border-style: solid;
-  border-width: 1px;
-  color: #D1D2D3;
-  margin-left: 2%;
-  width: 86%;
 }
 
 .accordion-tabs {
@@ -91,7 +29,7 @@ header h3 {
   border: 1px solid #666666;
 }
 
-.sqaure-placeholder {
+.square-placeholder {
   background-color: #666666;
   height: 87%;
   margin: 2%;
