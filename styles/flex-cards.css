@@ -1,0 +1,17 @@
+.flex-cards {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.short-card, .long-card {
+  height: 30%;
+}
+
+.short-card {
+  width: 31%;
+}
+
+.long-card {
+  width: 63%;
+}
