@@ -3,19 +3,19 @@ html, body {
 }
 
 body {
-  background-color: #F2F2F2;
   font-family: 'Open Sans', sans-serif;
   letter-spacing: 0.04em;
 }
 
 button {
+  align-self: center;
   background-color: #3F3244;
   color: #F2F2F2;
   font-weight: 300;
   font-size: 1.2em;
-  height: 6%;
+  height: 55px;
   letter-spacing: 0.04em;
-  width: 33%;
+  width: 23%;
 }
 
 header {
