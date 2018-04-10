@@ -1,11 +1,18 @@
 .flex-cards {
   display: flex;
   flex-wrap: wrap;
-  width: 100%;
+  margin: 60px;
+  width: 90%;
+}
+
+.card-image {
+  background-color: #666666;
 }
 
 .short-card, .long-card {
-  height: 30%;
+  height: 333px;
+  border: 1px solid #666666;
+  margin: 10px;
 }
 
 .short-card {
@@ -13,5 +20,5 @@
 }
 
 .long-card {
-  width: 63%;
+  width: 63.5%;
 }

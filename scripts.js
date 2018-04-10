@@ -10,3 +10,6 @@ $('.tab-list').on('click', '.tab', event => {
   $(event.target).addClass('active');
   $($(event.target).attr('href')).addClass('show');
 });
+
+// link to accordian tabs
+// https://codepen.io/PreciseSlice/pen/oqENWV
