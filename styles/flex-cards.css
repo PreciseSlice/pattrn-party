@@ -6,7 +6,7 @@
 }
 
 .flex-cards button {
-  margin: 3% 0 6% 39%;
+  margin: 3% 0 3% 39%;
   width: 25%;
 }
 
@@ -23,8 +23,8 @@
 }
 
 .short-card h2, .long-card h2 {
-  margin: 20px;
-  font-size: 1.6em;
+  margin: 22px;
+  font-size: 1.4em;
   font-weight: 600;
 }
 
@@ -33,5 +33,5 @@
 }
 
 .long-card {
-  width: 63.5%;
+  width: 64%;
 }
