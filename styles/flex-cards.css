@@ -33,5 +33,44 @@
 }
 
 .long-card {
-  width: 64%;
+  width: 63.8%;
+}
+
+@media (max-width: 1363px) {
+  .short-card h2, .long-card h2 {
+    font-size: 1.2em;
+    margin: 24px;
+  }
+}
+
+@media (max-width: 1215px) {
+
+  .flex-cards {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+    width: 100%
+  }
+
+  .flex-cards button {
+    margin: 6% 0%;
+    width: 100%;
+    height: 90px;
+  }
+
+  .short-card, .long-card {
+    width: 100%;
+    height: 600px;
+    margin-top: 26px;
+  }
+
+  .card-image {
+    height: 84.5%;
+  }
+
+  .short-card h2, .long-card h2 {
+    font-size: 2em;
+    margin: 30px;
+  }
 }
