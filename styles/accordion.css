@@ -1,12 +1,13 @@
 .accordion {
   display: flex;
   flex-direction: column;
-  height: 900px;
+  height: 800px;
 }
 
 .accordion-tabs {
-  margin: 3% 3%;
+  margin: 60px;
   height: 63%;
+  width: 90%;
 }
 
 .tab-list {
