@@ -11,5 +11,11 @@ $('.tab-list').on('click', '.tab', event => {
   $($(event.target).attr('href')).addClass('show');
 });
 
+$('.menu-btn').on('click', event => {
+  event.preventDefault();
+  $('.nav-bar').toggleClass('mobile-menu');
+  $('.nav-a').toggleClass('mobile-nav');
+});
+
 // link to accordian tabs
 // https://codepen.io/PreciseSlice/pen/oqENWV
