@@ -52,9 +52,10 @@ header h3 {
 }
 
 .tabs-title hr {
-  border-style: solid;
-  border-width: 1px;
+  border: none;
+  height: 1px;
   color: #D1D2D3;
-  margin-left: 2%;
-  width: 86%;
+  background-color: #D1D2D3;
+  margin-left: 3%;
+  width: 87%;
 }
