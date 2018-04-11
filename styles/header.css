@@ -1,0 +1,44 @@
+.nav-bar {
+  align-items: center;
+  background-color: #D1D2D3;
+  display: flex;
+  margin: 60px;
+  justify-content: space-around;
+  height: 120px;
+  width: 87%;
+}
+
+.round-img {
+  background-color: #f2f2f2;
+  border: 1px solid #9f9f9f;
+  border-radius: 50%;
+  height: 72px;
+  width: 72px;
+}
+
+.input-box {
+  align-items: center;
+  display: flex;
+  border: 1px solid #9f9f9f;
+  background-color: #f2f2f2;
+  justify-content: center;
+}
+
+.input-box img {
+  height: 23px;
+  margin: 7px 10px 5px;
+  width: 23px;
+}
+
+.input-box input {
+  background-color: #f2f2f2;
+  border: none;
+  height: 40px;
+  font-size: 1.3em;
+}
+
+.nav-bar a {
+  color: #666;
+  font-size: 1.3em;
+  text-decoration: none;
+}
