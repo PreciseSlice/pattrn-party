@@ -30,3 +30,16 @@ $('.nav-code').on('click', event => {
   event.preventDefault();
   window.open('https://codepen.io/PreciseSlice/pen/pwPFJW', '_blank');
 });
+
+if (window.innerWidth < 1215) {
+  $('.show').insertAfter('.selected-div');
+  //$('.tab').children().toggleClass('plus');
+  
+  $('.selected-div').children().children().toggleClass('minus');
+
+  $('.tab-list').on('click', '.tab', event => {
+    $('.show').insertAfter('.selected-div');
+    $('.selected-div').children().children().toggleClass('minus');
+  })
+
+}
