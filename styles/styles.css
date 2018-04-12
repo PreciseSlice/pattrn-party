@@ -107,6 +107,11 @@ header h3 {
     margin: 0;
     width: 21%;
   }
+  
+  .mobile-top {
+    flex-direction: row;
+  }
+
 }
 
 @media (max-width: 600px) {
