@@ -85,12 +85,13 @@ header h3 {
   }
 
   .main {
-    margin: 3% 4%;
+    margin: 3% 3%;
   }
 
   button {
     width: 100%;
     height: 90px;
+    margin-bottom: 60px;
   }
 
   .tabs-title {
